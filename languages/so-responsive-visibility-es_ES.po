@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SiteOrigin Resposive Visibility\n"
-"POT-Creation-Date: 2019-01-26 19:58+0100\n"
-"PO-Revision-Date: 2019-01-26 20:12+0100\n"
+"POT-Creation-Date: 2019-06-05 23:39+0200\n"
+"PO-Revision-Date: 2019-06-05 23:40+0200\n"
 "Last-Translator: Adrián Ortiz Arandes – GRELL <adrian@grell.es>\n"
 "Language-Team: Adrián Ortiz Arandes – GRELL <adrian@grell.es>\n"
 "Language: es\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: siteorigin-responsive-visibility.php\n"
@@ -21,21 +21,17 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: siteorigin-responsive-visibility.php:54
-msgid "Hide for small mobile"
-msgstr "Esconder en móviles pequeños"
+#: siteorigin-responsive-visibility.php:91
+#, php-format
+msgid "0 to %spx <small>screen width</small>"
+msgstr "<small>Ancho de pantalla</small> de 0 a %spx"
 
-#: siteorigin-responsive-visibility.php:61
-msgid "Hide for mobile"
-msgstr "Esconder en móviles"
-
-#: siteorigin-responsive-visibility.php:68
-msgid "Hide for tablet"
-msgstr "Esconder en tabletas"
-
-#: siteorigin-responsive-visibility.php:75
-msgid "Hide for desktop"
-msgstr "Esconder para pantallas grandes"
+#: siteorigin-responsive-visibility.php:98
+#: siteorigin-responsive-visibility.php:105
+#: siteorigin-responsive-visibility.php:112
+#, php-format
+msgid "larger than %spx <small>screen width</small>"
+msgstr "<small>Ancho de pantalla</small> superior a %spx"
 
 #. Plugin Name of the plugin/theme
 msgid "SiteOrigin Resposive Visibility"
@@ -47,9 +43,12 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Add options to SiteOrigin page builder rows and widgets (Attributes) to hide "
-"elements depending on the window dimension and according SiteOrigin settings."
+"Add options to SiteOrigin page builder rows and widgets (under attributes) "
+"to hide them depending on SiteOrigin breakpoint settings."
 msgstr ""
+"Añade opciones a los atributos de filas y widgets de SiteOrigin page builder "
+"para esconderlos dependiendo de los ajustes de puntos de ruptura de "
+"SiteOrigin."
 
 #. Author of the plugin/theme
 msgid "Adrián Ortiz Arandes"
@@ -58,6 +57,21 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://grell.es"
 msgstr ""
+
+#~ msgid "min. %spx <small>screen width</small>"
+#~ msgstr "min. %spx <small>ancho de pantalla</small>"
+
+#~ msgid "Hide for small mobile"
+#~ msgstr "Esconder en móviles pequeños"
+
+#~ msgid "Hide for mobile"
+#~ msgstr "Esconder en móviles"
+
+#~ msgid "Hide for tablet"
+#~ msgstr "Esconder en tabletas"
+
+#~ msgid "Hide for desktop"
+#~ msgstr "Esconder para pantallas grandes"
 
 #~ msgid "Hide for very small devices"
 #~ msgstr "Escoder en dispositivos muy pequeños"

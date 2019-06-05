@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: SiteOrigin Resposive Visibility\n"
-"POT-Creation-Date: 2019-01-26 20:00+0100\n"
+"POT-Creation-Date: 2019-06-05 23:30+0200\n"
 "PO-Revision-Date: 2019-01-26 19:49+0100\n"
 "Last-Translator: Adrián Ortiz Arandes – GRELL <adrian@grell.es>\n"
 "Language-Team: Adrián Ortiz Arandes – GRELL <adrian@grell.es>\n"
@@ -21,20 +21,16 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: siteorigin-responsive-visibility.php:54
-msgid "Hide for small mobile"
+#: siteorigin-responsive-visibility.php:91
+#, php-format
+msgid "0 to %spx <small>screen width</small>"
 msgstr ""
 
-#: siteorigin-responsive-visibility.php:61
-msgid "Hide for mobile"
-msgstr ""
-
-#: siteorigin-responsive-visibility.php:68
-msgid "Hide for tablet"
-msgstr ""
-
-#: siteorigin-responsive-visibility.php:75
-msgid "Hide for desktop"
+#: siteorigin-responsive-visibility.php:98
+#: siteorigin-responsive-visibility.php:105
+#: siteorigin-responsive-visibility.php:112
+#, php-format
+msgid "min. %spx <small>screen width</small>"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
