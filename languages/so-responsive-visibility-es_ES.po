@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SiteOrigin Resposive Visibility\n"
-"POT-Creation-Date: 2019-06-05 23:39+0200\n"
-"PO-Revision-Date: 2019-06-05 23:40+0200\n"
+"POT-Creation-Date: 2019-06-06 14:46+0200\n"
+"PO-Revision-Date: 2019-06-06 14:46+0200\n"
 "Last-Translator: Adrián Ortiz Arandes – GRELL <adrian@grell.es>\n"
 "Language-Team: Adrián Ortiz Arandes – GRELL <adrian@grell.es>\n"
 "Language: es\n"
@@ -21,17 +21,21 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: siteorigin-responsive-visibility.php:91
+#: siteorigin-responsive-visibility.php:110
 #, php-format
-msgid "0 to %spx <small>screen width</small>"
-msgstr "<small>Ancho de pantalla</small> de 0 a %spx"
+msgid "<small>widths</small> smaller than %spx"
+msgstr "<small>Anchos</small> inferiores a %spx"
 
-#: siteorigin-responsive-visibility.php:98
-#: siteorigin-responsive-visibility.php:105
-#: siteorigin-responsive-visibility.php:112
+#: siteorigin-responsive-visibility.php:117
+#: siteorigin-responsive-visibility.php:124
 #, php-format
-msgid "larger than %spx <small>screen width</small>"
-msgstr "<small>Ancho de pantalla</small> superior a %spx"
+msgid "<small>widths</small> %1$spx to %2$spx"
+msgstr "<small>Anchos</small> %1$spx a %2$spx"
+
+#: siteorigin-responsive-visibility.php:131
+#, php-format
+msgid "<small>widths</small> larger than %spx"
+msgstr "<small>Anchos</small> superiores a %spx"
 
 #. Plugin Name of the plugin/theme
 msgid "SiteOrigin Resposive Visibility"
@@ -57,6 +61,15 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://grell.es"
 msgstr ""
+
+#~ msgid "<small>widths</small> 0 to %s px"
+#~ msgstr "<small>Anchos</small> de 0 a %s px"
+
+#~ msgid "less than %spx <small>screen width</small>"
+#~ msgstr "<small>Ancho de pantalla</small> < a %spx"
+
+#~ msgid "larger than %spx <small>screen width</small>"
+#~ msgstr "<small>Ancho de pantalla</small> > a %spx"
 
 #~ msgid "min. %spx <small>screen width</small>"
 #~ msgstr "min. %spx <small>ancho de pantalla</small>"
